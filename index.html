@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Ergonomic Programming</title>
+  <meta name="description" content="Professional Crestron Home drivers from Home Ergonomic Programming.">
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #0b1120;
+      --panel: #151e31;
+      --border: #2b3851;
+      --text: #f8fafc;
+      --muted: #b7c1d1;
+      --accent: #3b82f6;
+      --accent-hover: #2563eb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top right, #173462 0, transparent 38%),
+        var(--background);
+    }
+
+    main {
+      width: min(920px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 72px 0 48px;
+    }
+
+    header { max-width: 720px; }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2.2rem, 7vw, 4.4rem);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.8rem;
+    }
+
+    p { color: var(--muted); }
+
+    .product {
+      margin-top: 48px;
+      padding: clamp(24px, 5vw, 40px);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: rgba(21, 30, 49, 0.94);
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28);
+    }
+
+    .features {
+      margin: 24px 0;
+      padding-left: 22px;
+      color: var(--muted);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 22px;
+      border: 1px solid var(--accent);
+      border-radius: 9px;
+      color: white;
+      background: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .button:hover,
+    .button:focus-visible { background: var(--accent-hover); }
+
+    .button.secondary {
+      color: var(--text);
+      background: transparent;
+      border-color: var(--border);
+    }
+
+    footer {
+      margin-top: 44px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    a { color: #93c5fd; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Home Ergonomic Programming</h1>
+      <p>Professional Crestron Home drivers designed for reliable residential installations.</p>
+    </header>
+
+    <section class="product">
+      <h2>Sky Stream IP Driver</h2>
+      <p>Local IP control for Sky Stream and Sky Glass through Crestron Home.</p>
+
+      <ul class="features">
+        <li>Sky Stream and Sky Glass support</li>
+        <li>Wake-on-LAN support for deep standby</li>
+        <li>Processor-bound licensing</li>
+        <li>One-hour evaluation period</li>
+      </ul>
+
+      <div class="actions">
+        <a class="button" href="https://buy.polar.sh/polar_cl_IOgbOFfNt5StOQ9fgtS72aJMJS4TLo9w2Q2jR07QRHV">
+          Buy licence
+        </a>
+        <a class="button secondary" href="downloads/Sky%20Stream%20IP.pkg">
+          Download driver
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      Support:
+      <a href="mailto:HomeErgonomicProgramming@proton.me">HomeErgonomicProgramming@proton.me</a>
+    </footer>
+  </main>
+</body>
+</html>
